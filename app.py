@@ -15,7 +15,7 @@ GITHUB_URL = "https://github.com/Manas96999"
 # PROFILE IMAGE:
 # Replace 'profile.png' with your actual file name (put it in the same folder).
 # If you don't have one yet, leave it as None to show a placeholder.
-PROFILE_IMAGE_PATH = "image\manasprofile.png" 
+PROFILE_IMAGE_PATH = "manasprofile.png" 
 
 # RESUME:
 # Put your PDF in the folder and name it 'resume.pdf'
@@ -177,7 +177,11 @@ if selected == "Home":
         st.markdown(f"<h1 style='font-size: 60px; margin-bottom: 0;'>Hi, I'm Manas.</h1>", unsafe_allow_html=True)
         st.markdown(f"<h3 style='color: #8b949e !important;'>{TITLE}</h3>", unsafe_allow_html=True)
         st.write("---")
-        st.markdown(ABOUT_ME)
+        # NEW CODE FOR BIGGER FONT
+        st.markdown(f"""
+        <div style="font-size: 20px; line-height: 1.6; color: #E0E0E0;">
+            {ABOUT_ME}
+        """, unsafe_allow_html=True)
         
         # Call to Action Buttons
         c1, c2 = st.columns(2)
