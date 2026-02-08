@@ -48,7 +48,7 @@ PROJECTS = [
     {
         "title": "World Class Healthcare Dashboard",
         "type": "Data Analytics & Visualization",
-        "tech": ["Tableau", "PythonSQL", "Data Modeling"],
+        "tech": ["Tableau", "Python" , "SQL", "Data Modeling"],
         "desc": "Designed an end-to-end BI solution to track hospital KPIs. Modeled complex patient data to visualize treatment outcomes, reducing reporting time by 40%. Features interactive slicers for departmental analysis.",
         "link": "#",  # Put your Power BI public link here
         "image_placeholder": "📊"  # You can replace this with an image path later
