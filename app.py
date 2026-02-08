@@ -15,11 +15,11 @@ GITHUB_URL = "https://github.com/Manas96999"
 # PROFILE IMAGE:
 # Replace 'profile.png' with your actual file name (put it in the same folder).
 # If you don't have one yet, leave it as None to show a placeholder.
-PROFILE_IMAGE_PATH = "D:\PORTFOLIO\image\manasprofile.png" 
+PROFILE_IMAGE_PATH = "image\manasprofile.png" 
 
 # RESUME:
 # Put your PDF in the folder and name it 'resume.pdf'
-RESUME_PATH = "D:\PORTFOLIO\R1.pdf"
+RESUME_PATH = "R1.pdf"
 
 # SUMMARY:
 ABOUT_ME = """
