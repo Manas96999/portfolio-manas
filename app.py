@@ -50,7 +50,7 @@ PROJECTS = [
         "type": "Data Analytics & Visualization",
         "tech": ["Tableau", "Python" , "SQL", "Data Modeling"],
         "desc": "Designed an end-to-end BI solution to track hospital KPIs. Modeled complex patient data to visualize treatment outcomes, reducing reporting time by 40%. Features interactive slicers for departmental analysis.",
-        "link": "#",  # Put your Power BI public link here
+        "link": "https://github.com/Manas96999/Healthcare-Equity-Analysis-Tableau",  # Put your Power BI public link here
         "image_placeholder": "📊"  # You can replace this with an image path later
     },
     {
